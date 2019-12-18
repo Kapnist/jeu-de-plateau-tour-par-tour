@@ -1,0 +1,264 @@
+body{
+background-image: url(image4.jpg);
+background-repeat:no-repeat;
+background-image: 100%;
+background-color: black;
+}
+nav{
+	color: yellow;
+	font-size: 50px;
+	margin-left: 400px;
+	margin-top: -50px;
+}
+tr{
+	border: 1px solid black;
+}
+	
+td{
+	border: 1px solid black;
+	width: 52px;
+	height: 52px;
+}
+
+
+#combat{
+	width: 52px;
+	height: 52px;
+}
+#combatt{
+	width: 52px;
+	height: 52px;
+}
+.impasse{
+	width: 52px;
+	height: 52px;
+}
+/*=============================gestion des arme=======================================*/
+#arme3{
+	width: 52px;
+	height: 52px;
+}
+
+.arme1{
+	width: 52px;
+	height: 52px;
+}
+.arme2{
+	width: 52px;
+	height: 52px;
+}
+.arme3{
+	width: 52px;
+	height: 52px;
+}
+.arme4{
+	width: 52px;
+	height: 52px;
+}
+
+/*==========================================joueur 1 simple et joueur2 possédant les armes=================================*/
+				/* class de joueur 1*/
+.joueur1{
+	width: 52px;
+	height: 52px;
+	background-image: url("../HTML/combat.png" );
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: purple;
+}
+
+.joueur1Arme1{
+	width: 52px;
+	height: 52px;
+	background-image: url("../HTML/combatArme1.png" );
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: purple;
+}
+
+.joueur1Arme2{
+	width: 52px;
+	height: 52px;
+	background-image: url("../HTML/combatArme2.png" );
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: purple;
+}
+.joueur1Arme3{
+	width: 52px;
+	height: 52px;
+	background-image: url("../HTML/combatArme3.png" );
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: purple;
+}
+.joueur1Ko{
+	width: 26%;
+	height:375px;
+	background-image: url("../HTML/combatKo.png" );
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: purple;
+
+}
+.joueur1Winner{
+	width: 26%;
+	height:375px;
+	background-image: url("../HTML/combatWinner.png" );
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: purple;
+
+}
+
+				/*==================class de joueur 2==============================*/
+.joueur2{
+	width: 52px;
+	height: 52px;
+	background-image: url("../HTML/combatt.png");
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: green;
+}
+
+
+.joueur2Arme4{
+	width: 52px;
+	height: 52px;
+	background-image: url("../HTML/combat1Arme4 .png" );
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: purple;
+}
+
+.joueur2Arme2{
+	width: 52px;
+	height: 52px;
+	background-image: url("../HTML/combat1Arme2.png" );
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: purple;
+}
+.joueur2Arme3{
+	width: 52px;
+	height: 52px;
+	background-image: url("../HTML/combat1Arme3.png" );
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: purple;
+}
+.joueur2Arme4{
+	width: 52px;
+	height: 52px;
+	background-image: url("../HTML/combattArme4.png" );
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: purple;
+}
+
+.joueur2Ko{
+	width: 26%;
+	height:375px;
+	background-image: url("../HTML/combattKo.png" );
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: purple;
+
+}
+.joueur2Winner{
+	width: 26%;
+	height:375px;
+	background-image: url("../HTML/combattWinner.png" );
+	background-size:100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: purple;
+
+}
+
+
+#joueur1{
+	border: 2px solid black;
+	width: 26%;
+	height:375px;
+	margin-left: 1160px;
+	margin-top: -430px;
+	text-align: center;
+	color:yellow;
+	background-color: purple;
+}
+#joueur2{
+	border: 2px solid black;
+	width:26%;
+	height:375px;
+	margin-left: 50px;
+	margin-top: -355px;
+	text-align: center;
+	color:yellow;
+	background-color: green;
+}
+.reloadGame{
+	background-color: #00ff99;
+	width:100px;
+	height:50px;
+}
+
+.caseCliquable{
+	background-color: yellow;
+}
+
+#combatArme1{
+	width: 52px;
+	height: 52px;
+}
+#combatArme2{
+	width: 52px;
+	height: 52px;
+}
+
+
+
+#combatt{
+	width: 52px;
+	height: 52px;
+}
+
+
+#tableau{
+	border: 1px solid black;
+	width: 550px;
+	height:550px;
+	border-spacing:0;
+	margin-left: 550px;
+	margin-top: 0px;
+	background-color: white;
+	margin-top: 50px;
+	background-color: skyblue;
+
+}
+
